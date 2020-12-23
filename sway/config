@@ -1,0 +1,55 @@
+# TO DO 
+# swayidle customization
+# Workspace ordering
+
+# To change bindings see "keys"
+
+#########################
+#######  CUSTOM   #######
+#########################
+
+# Sets the wallpaper for all outputs
+output * bg ~/.config/sway/theme/wallpaper.jpg fill
+
+# Creates gaps between windows
+gaps inner 20
+
+# Creates borders and sets them to a colour
+default_border pixel 5
+
+# Sets the colourscheme for the titlebar/border
+# Class                 border  bg      text    indic   vborder
+client.focused          #a49f8c #a49f8c #a49f8c #a49f8c #a49f8c 
+client.focused_inactive #a49f8c #a49f8c #a49f8c #a49f8c #a49f8c
+client.unfocused        #a49f8c #a49f8c #a49f8c #a49f8c #a49f8c
+
+# After 5 minutes the computer will be put to sleep and locked
+exec swayidle -w \
+          timeout 300 'swaylock -f -c a49f8c; swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
+         before-sleep 'swaylock -f -c a49f8c'
+
+# All inputs are defined in the keys file
+include ~/.config/sway/keys
+
+#########################
+####### SWAY BAR  #######
+#########################
+
+bar {
+	position top
+	
+	status_command while ~/.config/sway/status.sh; do sleep 1; done
+
+	font firacode 10
+	gaps 20 20 0 20
+	
+
+	colors {
+		statusline #a49f8c
+		background #00000000
+		focused_workspace #00000000 #00000000 #a49f8c
+		inactive_workspace #00000000 #00000000 #a49f8c
+	}
+}
+
+include /etc/sway/config.d/*
