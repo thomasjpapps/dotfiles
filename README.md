@@ -9,3 +9,10 @@
 <h3>App Launcher</h3>
 <p>I wanted to try my hand at creating my own app launcher and decided to have a play around in bash.</p>
 <p>Currently you can set short cuts to programs or use it as a file manager but otherwise you have to enter the programs full name</p>
+<h2>To Do</h2>
+<h3>Status Bar</h3>
+<p>Need to make it so my workspaces are in numerical order rather than the opened order</p>
+<h3>App Laucher</h3>
+<p>Make it so you can enter partial names to launch apps</p>
+<h3>Swaylock</h3>
+<p>Will customize more than the basic funtionality it can currently do</p>
