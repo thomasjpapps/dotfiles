@@ -2,7 +2,10 @@
 <p>This is my current working rice for my desktop.</p>
 <p>It's based around my favourite game: Destiny 2</p>
 <img src="sway/theme/desktop.png">
-<h2>Notes:</h2>
-<p>I'm currently still trying different application launchers so have yet to settle.</p>
-<p>The default keybinding for my theme is colemak so you may want to change this.</p>
-<p>Finally, the status bar updates every 1 second as this is fine for my needs however if you may want to set this to 0.1 seconds for a more smooth volume/brightness update.</p>
+<h2>Unique Features</h2>
+<h3>Status Bar</h3>
+<p>My status bar is done by using a bash script to get all the information.</p>
+<p>I wanted to use the built in swaybar rather than install something else such as waybar, as such there are a lot of limitations.</p>
+<h3>App Launcher</h3>
+<p>I wanted to try my hand at creating my own app launcher and decided to have a play around in bash.</p>
+<p>Currently you can set short cuts to programs or use it as a file manager but otherwise you have to enter the programs full name</p>
