@@ -36,9 +36,10 @@ bar {
 
 	status_command while ~/.config/sway/status.sh; do sleep 0.1; done
 
-    font Fira Code 11
+    font pango:Fira Code Nerd Font 11
 	gaps 20 20 0 20
 	tray_output none	
+    strip_workspace_numbers yes
 
 	colors {
 		statusline #ebdbb2
