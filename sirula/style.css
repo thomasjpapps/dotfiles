@@ -1,0 +1,40 @@
+* {
+    font-family: Fira Code;
+}
+
+.app-row {
+    transition: unset;
+    padding: 5px 0 5px 10px;
+    background-color: #272727;
+    color: #ebdbb2;
+    padding: 1em;
+}
+
+.app-row:selected {
+    background-color: #ebdbb2;
+    color: #272727;
+}
+
+.app-label {
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+#root-box {
+    border: 2px solid #ebdbb2;
+    background-color: #272727;
+    padding: 1em;
+}
+
+#search {
+    padding: 2px 8px;
+    margin: 1.5em 1em;
+    background-color: #272727;
+    color: #ebdbb2;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: unset;
+    border-color: #ebdbb2;
+}

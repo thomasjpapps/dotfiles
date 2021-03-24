@@ -1,13 +1,15 @@
-<h1>Welcome to my dotfiles</h1>
-<p>This is my current working rice for my desktop.</p>
-<img src="sway/theme/desktop.png">
-<h2>Unique Features</h2>
-<h3>Status Bar</h3>
-<p>My status bar is done by using a bash script to get all the information.</p>
-<p>I wanted to use the built in swaybar rather than install something else such as waybar, as such there are a lot of limitations. But I'm still very happy with the outcome I've created.</p>
-<h3>App Launcher</h3>
-<p>I wanted to try my hand at creating my own app launcher and decided to have a play around in bash.</p>
-<p>This has hit the back burner for the time being and instead I am using sirula as my app launcher.</p>
-<h2>To Do</h2>
-<h3>Status Bar</h3>
-<p>Need to make it so my workspaces are in numerical order rather than the opened order</p>
+# Welcome to my Dotfiles
+<div align="center">~/ is where the <3 is</div>
+![Desktop preview](sway/theme/desktop.png)
+## Features
+### Status Bar
+My status bar was made using the default sway-bar however there are some custom changes. I've used a nerd font so that I can use the symbols in the status bar to make the overall look cleaner and less crowded.
+### Workspace Buttons
+Much like my status bar I am using nerd font so get the circles you see as the buttons. Alongside this I've also got a custom script set to be run so that whenever you change workspaces your currently focused one will have a solid circle.
+### Sirula
+Sirula is my app launcher of choice as I wanted to try something that wasn't just a rofi clone and this is what I landed on. Thoughts so far is that it's been great and super easy to customise.
+## To do
+I still have yet to polish off a few features.  
+My status bar script needs to be polished up as it is currently a jamble of code snippets from stack overflow.  
+I would like to find a way to space out my workspace buttons a little more than current.  
+Finally I have a few more small tweaks for sirula.
