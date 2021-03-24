@@ -1,5 +1,4 @@
 # Welcome to my Dotfiles
-<div align="center">~/ is where the <3 is</div>
 ![Desktop preview](sway/theme/desktop.png)
 ## Features
 ### Status Bar
